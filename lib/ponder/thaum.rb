@@ -29,7 +29,8 @@ module Ponder
         :verbose            => true,
         :logging            => false,
         :reconnect          => true,
-        :reconnect_interval => 30
+        :reconnect_interval => 30,
+        :ssl                => false
       )
 
       # custom settings
